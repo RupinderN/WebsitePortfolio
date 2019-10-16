@@ -1,0 +1,175 @@
+body {
+	padding-top: 70px;
+}
+
+#name {
+	font-family: 'Major Mono Display', monospace;
+	font-size: 1.5rem;
+	letter-spacing: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+  #name {
+    letter-spacing: 0;
+  }
+}
+
+.navbar {
+	background-color: #C70039;
+}
+
+#main {
+	height: 655px;
+	background-color: #232323;
+}
+
+.bg-grey {
+	background-color: #DFE3E7;
+}
+
+.fa-magnet {
+	color: rgb(124, 79, 230);
+}
+
+.fa-headphones {
+	color: rgb(241, 146, 37);
+}
+
+img {
+	height: 50px;
+ 	width: auto;
+}
+
+.skills {
+	height: 15px;
+ 	width: auto;
+}
+
+.container2 {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+#coursework {
+	list-style: none;
+}
+
+.fa-circle-notch {
+	margin-top: 15px;
+}
+
+#deeplearning {
+	margin-bottom: 120px;
+}
+
+#machinelearning {
+	margin-bottom: 120px;
+}
+
+.skills {
+	list-style: none;
+}
+
+a { 
+  color: inherit; 
+} 
+
+a:hover {
+  color: white;
+}
+
+/* ALL CODE FOR THE NAVBAR STYLING STARTS HERE*/
+
+.navbar-dark {
+    background-color: #c70039;
+}
+
+/* ALL CODE FOR THE NAVBAR STYLING ENDS HERE*/
+
+/*================================================================*/
+
+/* ALL CODE FOR THE DROPDOWN MENU IN THE NAVBAR STARTS HERE */
+
+#dropdown-btn {
+  border: none;
+  outline: none;
+  background: none
+}
+
+.dropdown-menu {
+    background-color: #c70039;
+    float: right !important;
+    right: 0 !important;
+    top: 95%;
+    left: unset !important;
+}
+
+.dropdown-link {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    list-style: none;
+    width: auto;
+	font-family: 'Major Mono Display', monospace;
+}
+
+.smooth-scroll {
+	color: white;
+	text-decoration: none;
+}
+
+.smooth-scroll:hover {
+	color: white;
+	text-decoration: none;
+}
+
+@media only screen and (min-width: 500px) {
+  .dropdown-menu {
+    min-width: 50%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .dropdown-menu {
+    min-width: 35%;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .dropdown-menu {
+    min-width: 25%;
+  }
+}
+
+
+
+/* CODE TO ROTATE THE HAMBURGER ONCE IT IS CLICKED */
+
+.rotate{
+    -moz-transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.down{
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/* ALL CODE FOR THE DROPDOWN MENU IN THE NAVBAR STARTS HERE */
+
+/*================================================================*/
+
+/* ALL CODE FOR THE "ABOUT ME" SECTION STARTS HERE */
+
+#main-jumbotron {
+    height: 550px;
+    background: #232323;
+}
+
+
+/* ALL CODE FOR THE "ABOUT ME" SECTION ENDS HERE */
+
+/*================================================================*/
