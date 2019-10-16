@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en" style="scroll-behavior: smooth;">
+  <head>
+  	<title>Rupinder Nagra</title>
+
+  	<!-- Titlebar Icon -->
+  	<link rel="icon" type="image/png" href="images/titlelogo.png">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+
+  </head>
+  <body>
+
+    <!-- Navbar -->
+
+
+    <nav class="navbar navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a id="name" class="navbar-brand m-auto text-white">Rupinder Nagra</a>
+        <button id="dropdown-btn">
+          <span class="navbar-toggler-icon rotate">
+          </span>
+        </button>    
+          <div class="dropdown-menu" style="display: none;">
+            <ul class="p-0 m-0">
+              <li class="dropdown-link"><i class="far fa-address-card mr-2"></i> <a class="smooth-scroll" href="">About</a></li>
+              <li class="dropdown-link"><i class="fas fa-graduation-cap mr-2"></i> <a class="smooth-scroll" href="#education">Education</a></li>
+              <li class="dropdown-link"><i class="fas fa-certificate mr-2"></i> <a class="smooth-scroll" href="#deeplearning">Certifications</a></li>
+              <li class="dropdown-link"><i class="fas fa-laptop-code mr-2"></i> <a class="smooth-scroll" href="">Experience</a></li>
+              <li class="dropdown-link"><i class="fas fa-project-diagram mr-2"></i> <a class="smooth-scroll" href="">Projects</a></li>
+            </ul>
+          </div>          
+      </div>
+    </nav>
+
+
+<!-- 	<nav class="navbar navbar-dark py-3 fixed-top">
+	  <a id="name" class="navbar-brand m-auto" href="#">Rupinder Nagra</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse text-right" id="navbarNavAltMarkup">
+	    <div class="navbar-nav">
+	      <a class="nav-item nav-link" href="#">About</a>
+	      <a class="nav-item nav-link" href="#">Education</a>
+	      <a class="nav-item nav-link" href="#">Certificates</a>
+	      <a class="nav-item nav-link" href="#">Experience</a>
+	      <a class="nav-item nav-link" href="#">Projects</a>
+	    </div>
+	  </div>
+	</nav> -->
+
+    
+    <!-- Main -->
+
+	<div id="main" class="jumbotron jumbotron-fluid m-0">
+	  <div class="container">
+	    <!-- <h1 class="display-4">Fluid jumbotron</h1> -->
+	    <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+	  </div>
+	</div>
+
+
+	<!-- Education -->
+
+	<div class="jumbotron jumbotron-fluid m-0 bg-grey">
+	  <div class="container2 text-dark">
+	    <h1 class="display-4 mb-5">Education</h1>
+	    <div class="media">
+  			<img src="images/Logo.png" class="mr-3" alt="...">
+  				<div class="media-body">
+    				<h5 class="mt-0">McMaster University <span style="float:right;">Hamilton, ON, Canada</span></h5>
+    					Software Engineering, B.Eng. <span style="float:right;">2018-2022</span>
+    					<p>Cumulative GPA: 3.80</p>
+  				</div>
+		</div>
+		<ul id="coursework" class="mt-5" style="text-align: justify;"> <strong>Relevant Coursework:</strong>
+			<li><i class="fas fa-circle-notch mr-2"></i> Principles of Programming (C Programming) </li>
+			<li><i class="fas fa-circle-notch mr-2"></i> Digital Systems and Interfacing (FGPA Programming with Verilog/VHDL) </li>
+			<li><i class="fas fa-circle-notch mr-2"></i> Software Engineering Practice and Experience (UNIX, BASH, Assembly Programming) </li>
+			<li><i class="fas fa-circle-notch mr-2"></i> Engineering Computation (Python Development) </li>
+			<li><i class="fas fa-circle-notch mr-2"></i> Discrete Mathematics with Applications I </li>
+			<li><i class="fas fa-circle-notch mr-2"></i> Engineering Mathematics II (Linear Algebra) </li>
+			<li><i class="fas fa-circle-notch mr-2"></i> Engineering Mathematics III </li>
+		</ul>
+	  </div>
+	</div>
+
+<!-- Projects -->
+
+
+<div class="jumbotron jumbotron-fluid m-0 bg-grey">
+
+	<!-- Movie Magnet -->
+
+	<div id="deeplearning" class="container2 text-dark">
+		<h1 class="display-4 mb-5">Projects</h1>
+		<div class="media">
+			<i class="fas fa-magnet fa-rotate-180 fa-2x mt-1 mr-3"></i>
+			<div class="media-body">
+				<h5 class="mt-2">Movie Magnet <span style="float:right;">NodeJS</span></h5>
+				<span style="float:right;">August-September 2019</span>
+			</div>
+		</div>
+		<p class="mt-5" style="text-align: justify;">
+			This is a web application using the MovieDB API and the 'imdb' node package to find movies that currently
+			playing in theatres, and display their IMDB ratings. If a user creates an account, they will obtain the
+			additional functionality of being able to filter movie ratings based on their personal taste, and can
+			also receive emails when a movie above their specific criteria is released in theatres.
+			It runs on NodeJS backend, and the Express.js framework, with various asynchronous calls resolved with 
+			Promises and async/await functions.
+		</p>
+	</div>
+
+	<!-- Discover More -->
+	
+	<div id="machinelearning" class="container2 text-dark">
+		<div class="media">
+			<i class="fas fa-headphones fa-2x mr-3"></i>
+			<div class="media-body">
+				<h5 class="mt-2">Discover More <span style="float:right;">NodeJS</span></h5>
+				<span style="float:right;">October 2019</span>
+			</div>
+		</div>
+		<p class="mt-5" style="text-align: justify;">
+			This is a web application that uses the popular Spotify API to find related artists a user would enjoy
+			based on their favourite artists. A user then has the ability to follow these artists. The special functionality
+			of the app comes based on the fact that it only displays artists that have an arbitrary popularity rating under 65
+			on Spotify (this is a property for artists on the API), so the artists displayed will be relatively unpopular.
+			It also runs on NodeJS backend, and the Express.js framework, with various asynchronous calls resolved with
+			Promises and async/await functions.
+		</p>
+	</div>
+
+
+
+<!-- Certificates -->
+
+	<!-- Deep Learning -->
+
+	<div class="jumbotron jumbotron-fluid m-0 bg-grey">
+	  
+	  <div id="deeplearning" class="container2 text-dark">
+	    <h1 class="display-4 mb-5">Certificates</h1>
+	    <div class="media">
+  			<img src="images/deeplearning.png" class="mr-3" alt="...">
+  				<div class="media-body">
+    				<h5 class="mt-0">Deep Learning Specialization <span style="float:right;">Coursera</span></h5>
+    					deeplearning.ai <span style="float:right;">July 2019</span>
+  				</div>
+		</div>
+		<p class="mt-5" style="text-align: justify;"> 
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	  </div>
+
+	  <!-- Machine Learning -->
+
+	  <div id="machinelearning" class="container2 text-dark">
+	    <div class="media">
+  			<img src="images/coursera.jfif" class="mr-3" alt="...">
+  				<div class="media-body">
+    				<h5 class="mt-0">Machine Learning <span style="float:right;">Coursera</span></h5>
+    					Andrew Ng <span style="float:right;">June 2019</span>
+  				</div>
+		</div>
+		<p class="mt-5" style="text-align: justify;"> 
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	  </div>
+
+	  <!-- Tensorflow -->
+
+	  <div class="container2 text-dark">
+	    <div class="media">
+  			<img src="images/tensorflow.png" class="mr-3" alt="...">
+  				<div class="media-body">
+    				<h5 class="mt-0">TensorFlow <span style="float:right;">Udemy</span></h5>
+    					Jose Portilla <span style="float:right;">July 2019</span>
+  				</div>
+		</div>
+		<p class="mt-5" style="text-align: justify;"> 
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	  </div>
+
+	<!-- Skills -->
+
+	<div class="jumbotron jumbotron-fluid m-0 bg-grey mb-5">
+	  <div class="container2 text-dark">
+	    <h1 class="display-4 mb-5">Skills</h1>
+	    <div class="row">
+	    	<div class="col-lg-6 col-sm-12">
+	    		<ul class="skills">
+	    			<li><i class="fab fa-python text-primary"></i> Python</li>
+	    			<li><i class="fab fa-java text-warning"></i> Java</li>
+	    			<li><img src="images/tensorflow.png" class="skills" alt="..."> TensorFlow</li>
+	    			<li><img src="images/octave.png" class="skills" alt="..."> Octave</li>
+	    			<li><i class="fab fa-html5 text-primary"></i> HTML</li>
+	    			<li><img src="images/numpy.png" class="skills" alt="..."> NumPy</li>
+	    		</ul>
+	    	</div>
+	    	<div class="col-lg-6">
+	    		<ul class="skills">
+	    			<li><i class="fab fa-js-square"></i> JavaScript</li>
+	    			<li><img src="images/matlab.png" class="skills" alt="..."> Matlab</li>
+	    			<li><img src="images/keras.jpg" class="skills" alt="..."> Keras</li>
+	    			<li><img src="images/jquery.png" class="skills" alt="..."> jQuery</li>
+	    			<li><i class="fab fa-css3-alt text-success"></i> CSS</li>
+	    			<li><img src="images/pandas.png" class="skills" alt="..."> Pandas</li>
+	    		</ul>
+	    	</div>
+	    </div>
+		</div>
+	  </div>
+	</div>
+</div>
+
+	<nav class="navbar navbar-light">
+		<a class="navbar-brand m-left mb-1 text-white"><i class="far fa-copyright"></i> Rupinder Nagra </a>
+		<p class="m-right mr-4 mt-2 text-white"><a href="https://github.com/RupinderN">Github</a> // <a href="mailto:rupinder0410@gmail.com">Email</a> // <a href="https://www.linkedin.com/in/rupindernagra/">LinkedIn</a></p>
+	</nav>
+
+	
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
