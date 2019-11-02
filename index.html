@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" style="scroll-behavior: smooth;">
+<html lang="en">
   <head>
   	<title>Rupinder Nagra</title>
 
@@ -40,65 +40,52 @@
         </button>    
           <div class="dropdown-menu" style="display: none;">
             <ul class="p-0 m-0">
-              <li class="dropdown-link"><i class="far fa-address-card mr-2"></i> <a class="smooth-scroll" href="">About</a></li>
-              <li class="dropdown-link"><i class="fas fa-graduation-cap mr-2"></i> <a class="smooth-scroll" href="#education">Education</a></li>
-              <li class="dropdown-link"><i class="fas fa-certificate mr-2"></i> <a class="smooth-scroll" href="#deeplearning">Certifications</a></li>
-              <li class="dropdown-link"><i class="fas fa-laptop-code mr-2"></i> <a class="smooth-scroll" href="">Experience</a></li>
-              <li class="dropdown-link"><i class="fas fa-project-diagram mr-2"></i> <a class="smooth-scroll" href="">Projects</a></li>
+				<li class="dropdown-link"><i class="far fa-address-card mr-2"></i> <a class="smooth-scroll" href="#profile">Profile</a></li>
+				<li class="dropdown-link"><i class="fas fa-graduation-cap mr-2"></i> <a class="smooth-scroll" href="#education">Education</a></li>
+				<li class="dropdown-link"><i class="fas fa-project-diagram mr-2"></i> <a class="smooth-scroll" href="#moviemagnet">Projects</a></li>
+            	<li class="dropdown-link"><i class="fas fa-certificate mr-2"></i> <a class="smooth-scroll" href="#certifications">Certifications</a></li>
+              	<li class="dropdown-link"><i class="fas fa-laptop-code mr-2"></i> <a class="smooth-scroll" href="#skills">Skills</a></li>
             </ul>
           </div>          
       </div>
     </nav>
 
-
-<!-- 	<nav class="navbar navbar-dark py-3 fixed-top">
-	  <a id="name" class="navbar-brand m-auto" href="#">Rupinder Nagra</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse text-right" id="navbarNavAltMarkup">
-	    <div class="navbar-nav">
-	      <a class="nav-item nav-link" href="#">About</a>
-	      <a class="nav-item nav-link" href="#">Education</a>
-	      <a class="nav-item nav-link" href="#">Certificates</a>
-	      <a class="nav-item nav-link" href="#">Experience</a>
-	      <a class="nav-item nav-link" href="#">Projects</a>
-	    </div>
-	  </div>
-	</nav> -->
-
     
     <!-- Main -->
 
 	<div id="main" class="jumbotron jumbotron-fluid m-0">
-	  <div class="container">
-	    <!-- <h1 class="display-4">Fluid jumbotron</h1> -->
-	    <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+	  <div id="profile" class="container text-center">
+		  <img src="images/romeo.JPG" alt="Rupinder Nagra" id="main-img" class="img-fluid">
+		  <br>
+		  <div class="linkedinANDgithub">
+			  <a href='https://github.com/RupinderN' target="_blank"><i class="fab fa-github-square mr-3 fa-5x"></i></a>
+			  <a href='https://www.linkedin.com/in/rupindernagra/' target="_blank"><i class="fab fa-linkedin mr-3 fa-5x"></i></a>			  
+		  </div>
 	  </div>
 	</div>
 
 
 	<!-- Education -->
 
-	<div class="jumbotron jumbotron-fluid m-0 bg-grey">
+	<div id='education' class="mx-auto jumbotron jumbotron-fluid m-0 bg-grey">
 	  <div class="container2 text-dark">
-	    <h1 class="display-4 mb-5">Education</h1>
+	    <h1 class="display-4 mb-5 text-center text-md-left">Education</h1>
 	    <div class="media">
-  			<img src="images/Logo.png" class="mr-3" alt="...">
+  			<img src="images/Logo.png" class="mr-3 ml-5 ml-md-0 small-icons" alt="...">
   				<div class="media-body">
-    				<h5 class="mt-0">McMaster University <span style="float:right;">Hamilton, ON, Canada</span></h5>
-    					Software Engineering, B.Eng. <span style="float:right;">2018-2022</span>
+    				<h5 class="mt-0">McMaster University <span class="float-right d-none d-md-inline">Hamilton, ON, Canada</span></h5>
+    					Software Engineering, B. Eng. <span class="float-right d-none d-md-inline">2018-2022</span>
     					<p>Cumulative GPA: 3.80</p>
   				</div>
 		</div>
-		<ul id="coursework" class="mt-5" style="text-align: justify;"> <strong>Relevant Coursework:</strong>
+		<ul id="coursework" class="mt-5 text-left"> <strong>Relevant Coursework:</strong>
 			<li><i class="fas fa-circle-notch mr-2"></i> Principles of Programming (C Programming) </li>
-			<li><i class="fas fa-circle-notch mr-2"></i> Digital Systems and Interfacing (FGPA Programming with Verilog/VHDL) </li>
+			<li><i class="fas fa-circle-notch mr-2"></i> Digital Systems and Interfacing (FPGA Programming with Verilog/VHDL) </li>
 			<li><i class="fas fa-circle-notch mr-2"></i> Software Engineering Practice and Experience (UNIX, BASH, Assembly Programming) </li>
 			<li><i class="fas fa-circle-notch mr-2"></i> Engineering Computation (Python Development) </li>
 			<li><i class="fas fa-circle-notch mr-2"></i> Discrete Mathematics with Applications I </li>
 			<li><i class="fas fa-circle-notch mr-2"></i> Engineering Mathematics II (Linear Algebra) </li>
-			<li><i class="fas fa-circle-notch mr-2"></i> Engineering Mathematics III </li>
+			<li><i class="fas fa-circle-notch mr-2"></i> Engineering Mathematics III (Advanced Calculus)</li>
 		</ul>
 	  </div>
 	</div>
@@ -106,20 +93,23 @@
 <!-- Projects -->
 
 
-<div class="jumbotron jumbotron-fluid m-0 bg-grey">
+<div id="moviemagnet" class="jumbotron jumbotron-fluid m-0 bg-grey">
 
 	<!-- Movie Magnet -->
 
-	<div id="deeplearning" class="container2 text-dark">
-		<h1 class="display-4 mb-5">Projects</h1>
-		<div class="media">
+	<div class="container2 text-dark">
+		<h1 class="display-4 mb-5 text-center text-md-left">Projects</h1>
+		<div class="media ml-5 ml-md-0">
 			<i class="fas fa-magnet fa-rotate-180 fa-2x mt-1 mr-3"></i>
 			<div class="media-body">
-				<h5 class="mt-2">Movie Magnet <span style="float:right;">NodeJS</span></h5>
-				<span style="float:right;">August-September 2019</span>
+				<h5 class="mt-2">Movie Magnet (Link <a href='https://discover-more.herokuapp.com/' target=”_blank”><u>Here</u></a>) <span class="float-right d-none d-md-inline">Node.JS</span></h5>
+				<span class="float-left float-md-right">August-October 2019</span>
 			</div>
 		</div>
-		<p class="mt-5" style="text-align: justify;">
+		<center>
+			<img class="screenshot" class='my-5 text-center' src="images/moviemagnet.PNG">
+		</center>
+		<p class="mx-4 mx-md-0">
 			This is a web application using the MovieDB API and the 'imdb' node package to find movies that currently
 			playing in theatres, and display their IMDB ratings. If a user creates an account, they will obtain the
 			additional functionality of being able to filter movie ratings based on their personal taste, and can
@@ -129,96 +119,86 @@
 		</p>
 	</div>
 
-	<!-- Discover More -->
+	<!-- Discover More --><br>
 	
-	<div id="machinelearning" class="container2 text-dark">
-		<div class="media">
-			<i class="fas fa-headphones fa-2x mr-3"></i>
+	<div class="container2 text-dark mt-5">
+		<div class="media ml-5 ml-md-0">
+			<img class="mr-2" src="https://img.icons8.com/color/48/000000/music-record.png">
 			<div class="media-body">
-				<h5 class="mt-2">Discover More <span style="float:right;">NodeJS</span></h5>
-				<span style="float:right;">October 2019</span>
+				<h5 class="mt-2">Discover More (Link <a href='https://discover-more.herokuapp.com/' target=”_blank”><u>Here</u></a>) <span class="float-right d-none d-md-inline">Node.JS</span></h5>
+				<span class="float-left float-md-right">October 2019</span>
 			</div>
 		</div>
-		<p class="mt-5" style="text-align: justify;">
-			This is a web application that uses the popular Spotify API to find related artists a user would enjoy
-			based on their favourite artists. A user then has the ability to follow these artists. The special functionality
-			of the app comes based on the fact that it only displays artists that have an arbitrary popularity rating under 65
-			on Spotify (this is a property for artists on the API), so the artists displayed will be relatively unpopular.
-			It also runs on NodeJS backend, and the Express.js framework, with various asynchronous calls resolved with
-			Promises and async/await functions.
+		<center>
+			<img class="screenshot" class='my-4 text-center' src="images/discovermore.PNG">
+		</center>
+		<p class="mx-4 mx-md-0">
+			This is a web application that uses the versatile Spotify API to find related artists a user would enjoy
+			based on their favourite artists. A user then has the ability to follow or unfollow these artists, see their Spotify popularity ratings,
+			or click on the artist's image to be taken to their Spotify profile. It also runs on Node.JS backend, and the Express.js framework, 
+			and includes various asynchronous calls resolved with Promises and async/await functions.
 		</p>
 	</div>
-
 
 
 <!-- Certificates -->
 
 	<!-- Deep Learning -->
 
-	<div class="jumbotron jumbotron-fluid m-0 bg-grey">
+	<div id="certifications" class="jumbotron jumbotron-fluid m-0 bg-grey">
 	  
 	  <div id="deeplearning" class="container2 text-dark">
-	    <h1 class="display-4 mb-5">Certificates</h1>
-	    <div class="media">
-  			<img src="images/deeplearning.png" class="mr-3" alt="...">
+	    <h1 class="display-4 mb-5 text-center text-md-left">Certificates</h1>
+	    <div class="media ml-5 ml-md-0">
+  			<img src="images/deeplearning.png" class="mr-3 small-icons" alt="...">
   				<div class="media-body">
-    				<h5 class="mt-0">Deep Learning Specialization <span style="float:right;">Coursera</span></h5>
-    					deeplearning.ai <span style="float:right;">July 2019</span>
+    				<h5 class="mt-0">Deep Learning Specialization <span class="float-right d-none d-md-inline">Coursera</span></h5>
+    					<span class="d-none d-md-inline">deeplearning.ai</span> <span class="float-left float-md-right">July 2019</span>
   				</div>
 		</div>
-		<p class="mt-5" style="text-align: justify;"> 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<p class="mt-5 mx-5"> 
+		This Coursera course was my introduction to the field of machine learning. I learned ML concepts such as Logistic Regression,
+		Regularization, Representation of Neural Networks, and Applications of Neural Networks with the introduction of forward and backward
+		propagation algorithms. I completed weekly Octave/MATLAB assignments for the course.
 		</p>
 	  </div>
 
 	  <!-- Machine Learning -->
 
 	  <div id="machinelearning" class="container2 text-dark">
-	    <div class="media">
-  			<img src="images/coursera.jfif" class="mr-3" alt="...">
+	    <div class="media ml-5 ml-md-0">
+  			<img src="images/coursera.jfif" class="mr-3 small-icons" alt="...">
   				<div class="media-body">
-    				<h5 class="mt-0">Machine Learning <span style="float:right;">Coursera</span></h5>
-    					Andrew Ng <span style="float:right;">June 2019</span>
+    				<h5 class="mt-0">Machine Learning <span class="float-right d-none d-md-inline">Coursera</span></h5>
+    					<span class="d-none d-md-inline">Andrew Ng</span> <span class="float-left float-md-right">June 2019</span>
   				</div>
 		</div>
-		<p class="mt-5" style="text-align: justify;"> 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<p class="mt-5 mx-5"> 
+		This course reinforced the concepts I had learned in the previous Coursera course and more. I gained familiarity with 
+		Hyperparameter tuning, Regularization and Optimization, how to structure ML projects, and Convolutional Neural Networks.
+		I completed weekly assignments in Python for this course.
 		</p>
 	  </div>
 
 	  <!-- Tensorflow -->
 
 	  <div class="container2 text-dark">
-	    <div class="media">
-  			<img src="images/tensorflow.png" class="mr-3" alt="...">
+	    <div class="media ml-5 ml-md-0">
+  			<img src="images/tensorflow.png" class="mr-3 small-icons" alt="...">
   				<div class="media-body">
-    				<h5 class="mt-0">TensorFlow <span style="float:right;">Udemy</span></h5>
-    					Jose Portilla <span style="float:right;">July 2019</span>
+    				<h5 class="mt-0">TensorFlow <span class="float-right d-none d-md-inline">Udemy</span></h5>
+						<span class="d-none d-md-inline">Jose Portilla </span> <span class="float-left float-md-right">July 2019</span>
   				</div>
 		</div>
-		<p class="mt-5" style="text-align: justify;"> 
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<p class="mt-5 mx-5"> 
+		This course gave me a strong introduction to using TensorFlow effectively. I learned TensorFlow and Keras syntax, how to make
+		Linear Regression & Convolutional Neural Network models, and various other conventions used to structure deep learning projects.
 		</p>
 	  </div>
 
 	<!-- Skills -->
 
-	<div class="jumbotron jumbotron-fluid m-0 bg-grey mb-5">
+	<div id="skills" class="jumbotron jumbotron-fluid m-0 bg-grey mb-5">
 	  <div class="container2 text-dark">
 	    <h1 class="display-4 mb-5">Skills</h1>
 	    <div class="row">
@@ -230,9 +210,10 @@
 	    			<li><img src="images/octave.png" class="skills" alt="..."> Octave</li>
 	    			<li><i class="fab fa-html5 text-primary"></i> HTML</li>
 	    			<li><img src="images/numpy.png" class="skills" alt="..."> NumPy</li>
+	    			<li><img src="images/c.png" class="skills" alt="..."> C</li>
 	    		</ul>
 	    	</div>
-	    	<div class="col-lg-6">
+	    	<div class="col-lg-6 col-sm-12">
 	    		<ul class="skills">
 	    			<li><i class="fab fa-js-square"></i> JavaScript</li>
 	    			<li><img src="images/matlab.png" class="skills" alt="..."> Matlab</li>
@@ -250,7 +231,7 @@
 
 	<nav class="navbar navbar-light">
 		<a class="navbar-brand m-left mb-1 text-white"><i class="far fa-copyright"></i> Rupinder Nagra </a>
-		<p class="m-right mr-4 mt-2 text-white"><a href="https://github.com/RupinderN">Github</a> // <a href="mailto:rupinder0410@gmail.com">Email</a> // <a href="https://www.linkedin.com/in/rupindernagra/">LinkedIn</a></p>
+		<p class="m-right mr-4 mt-2 text-white"><a href="https://github.com/RupinderN" target="_blank">Github</a> // <a href="mailto:rupinder0410@gmail.com">Email</a> // <a href="https://www.linkedin.com/in/rupindernagra/" target="_blank">LinkedIn</a></p>
 	</nav>
 
 	

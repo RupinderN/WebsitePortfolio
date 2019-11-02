@@ -1,94 +1,39 @@
-body {
-	padding-top: 70px;
+/* ==================== */
+/* GET RID OF OVERFLOW  */
+/* ==================== */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth !important;
 }
 
+/* ================== */
+/* NAME IN THE NAVBAR */
+/* ================== */
 #name {
 	font-family: 'Major Mono Display', monospace;
 	font-size: 1.5rem;
 	letter-spacing: 10px;
 }
 
+/* -------------------------------- */
+/* MOBILE OPTIMIZATION FOR THE NAME */
+/* -------------------------------- */
 @media only screen and (max-width: 576px) {
   #name {
     letter-spacing: 0;
   }
 }
 
+/* ============== */
+/* NAVBAR STYLING */
+/* ============== */
 .navbar {
 	background-color: #C70039;
 }
-
-#main {
-	height: 655px;
-	background-color: #232323;
-}
-
-.bg-grey {
-	background-color: #DFE3E7;
-}
-
-.fa-magnet {
-	color: rgb(124, 79, 230);
-}
-
-.fa-headphones {
-	color: rgb(241, 146, 37);
-}
-
-img {
-	height: 50px;
- 	width: auto;
-}
-
-.skills {
-	height: 15px;
- 	width: auto;
-}
-
-.container2 {
-	max-width: 700px;
-	margin: 0 auto;
-}
-
-#coursework {
-	list-style: none;
-}
-
-.fa-circle-notch {
-	margin-top: 15px;
-}
-
-#deeplearning {
-	margin-bottom: 120px;
-}
-
-#machinelearning {
-	margin-bottom: 120px;
-}
-
-.skills {
-	list-style: none;
-}
-
-a { 
-  color: inherit; 
-} 
-
-a:hover {
-  color: white;
-}
-
-/* ALL CODE FOR THE NAVBAR STYLING STARTS HERE*/
-
-.navbar-dark {
-    background-color: #c70039;
-}
-
-/* ALL CODE FOR THE NAVBAR STYLING ENDS HERE*/
-
-/*================================================================*/
-
-/* ALL CODE FOR THE DROPDOWN MENU IN THE NAVBAR STARTS HERE */
 
 #dropdown-btn {
   border: none;
@@ -110,7 +55,7 @@ a:hover {
     padding: 10px;
     list-style: none;
     width: auto;
-	font-family: 'Major Mono Display', monospace;
+    font-family: 'Major Mono Display', monospace;
 }
 
 .smooth-scroll {
@@ -123,6 +68,9 @@ a:hover {
 	text-decoration: none;
 }
 
+/* -------------------------------- */
+/* MOBILE OPTIMIZATION FOR DROPDOWN */
+/* -------------------------------- */
 @media only screen and (min-width: 500px) {
   .dropdown-menu {
     min-width: 50%;
@@ -141,14 +89,13 @@ a:hover {
   }
 }
 
-
-
+/* ----------------------------------------------- */
 /* CODE TO ROTATE THE HAMBURGER ONCE IT IS CLICKED */
-
+/* ----------------------------------------------- */
 .rotate{
-    -moz-transition: all 0.4s linear;
-    -webkit-transition: all 0.4s linear;
-    transition: all 0.4s linear;
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
 }
 
 .down{
@@ -158,18 +105,119 @@ a:hover {
     transform: rotate(180deg);
 }
 
-/* ALL CODE FOR THE DROPDOWN MENU IN THE NAVBAR STARTS HERE */
-
-/*================================================================*/
-
-/* ALL CODE FOR THE "ABOUT ME" SECTION STARTS HERE */
-
-#main-jumbotron {
-    height: 550px;
-    background: #232323;
+/* ===================================== */
+/* STYLING FOR THE HEADER OF THE WEBSITE */
+/* ===================================== */
+#main {
+	background-color: #232323;
 }
 
+#main-img {
+  border-radius: 5px;
+  border: 5px solid #ffffff;
+  margin-top: 5.75rem;
+  width: 66.66%;
+}
 
-/* ALL CODE FOR THE "ABOUT ME" SECTION ENDS HERE */
+.bg-grey {
+	background-color: #DFE3E7;
+}
 
-/*================================================================*/
+/* ============================== */
+/* ALL FONT-AWESOME ICONS STYLING */
+/* ============================== */
+.fa-magnet {
+	color: rgb(94, 92, 92);
+}
+
+.fa-github-square {
+  color: white;
+  transition: all 0.3s;
+}
+
+.fa-linkedin {
+  color: white;
+  transition: all 0.3s;
+}
+
+.linkedinANDgithub {
+  margin-top: 5rem;
+}
+
+/* ------------------------------------------- */
+/* HOVER EFFECTS FOR GITHUB AND LINKEDIN ICONS */
+/* ------------------------------------------- */
+.fa-github-square:hover {
+  transform: scale(1.1);
+}
+
+.fa-linkedin:hover {
+  transform: scale(1.1);
+}
+
+/* --------------------------- */
+/* STYLING FOR THE SMALL ICONS */
+/* --------------------------- */
+.small-icons {
+	height: 50px;
+ 	width: auto;
+}
+
+/*  */
+.screenshot {
+  height: 25%;
+  width: 100%;
+  margin: 2.5rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .screenshot {
+    width: 90%;
+  }
+}
+
+#moviemagnet {
+	margin-bottom: 120px;
+}
+
+#deeplearning {
+	margin-bottom: 120px;
+}
+
+#machinelearning {
+	margin-bottom: 120px;
+}
+
+.skills {
+  height: 15px;
+  width: auto;
+  list-style: none;
+}
+
+.container2 {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+#coursework {
+	list-style: none;
+}
+
+.fa-circle-notch {
+	margin-top: 35px;
+}
+
+/* =========================== */
+/* GENERAL ANCHOR TAGS STYLING */
+/* =========================== */
+a { 
+  color: inherit; 
+} 
+
+a:hover {
+  color: white;
+}
+
+/* ================================================== */
+/* STYLING OF THE HEADINGS THAT DESCRIBE EACH SECTION */
+/* ================================================== */
