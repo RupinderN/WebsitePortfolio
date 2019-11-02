@@ -1,5 +1,5 @@
 $('#dropdown-btn').on("click", function() {
-	$('.dropdown-menu').slideToggle("slow");
+	$('.dropdown-menu').slideToggle();
 	$('.dropdown-menu').css("display", "block");
 });
 
