@@ -68,6 +68,15 @@ html, body {
 	text-decoration: none;
 }
 
+#navbar {
+  transition: all 0.4s;
+}
+
+.extra-padding {
+  padding-top: 0.4rem !important;
+  padding-bottom: 0.4rem !important;
+}
+
 /* -------------------------------- */
 /* MOBILE OPTIMIZATION FOR DROPDOWN */
 /* -------------------------------- */
@@ -113,9 +122,10 @@ html, body {
 }
 
 #main-img {
-  border: 5px solid #C70039;
-  margin-top: 5.75rem;
-  width: 66.66%;
+  border: 5px solid;
+  border-image: linear-gradient(45deg, hsl(0, 0%, 100%), #494949) 1;
+  margin-top: 3.5rem;
+  width: 60%;
 }
 
 .bg-grey {
@@ -127,6 +137,12 @@ html, body {
   font-family: 'Red Hat Display', sans-serif;
   font-weight: 300;
   line-height: 1.2;
+}
+
+@media only screen and (max-width: 768px) {
+  .display-5 {
+    font-size: 1.5rem;
+  }
 }
 
 /* ============================== */
@@ -147,8 +163,23 @@ html, body {
 }
 
 .linkedinANDgithub {
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
+
+@media only screen and (max-width: 768px) {
+  .fa-linkedin {
+    font-size: 3rem !important;
+  }
+
+  .linkedinANDgithub {
+    margin-top: 2rem;
+  }
+
+  .fa-github-square {
+    font-size: 3rem !important;
+  }
+}
+
 
 /* ------------------------------------------- */
 /* HOVER EFFECTS FOR GITHUB AND LINKEDIN ICONS */

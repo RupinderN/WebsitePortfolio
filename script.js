@@ -8,6 +8,15 @@ $(".rotate").click(function(){
     $(this).toggleClass("down"); 
 });
 
+// NAVBAR SIZE FUNCTION
+$("body").scroll(function () {
+	if($(this).scrollTop() >= 80) {
+		$("#navbar").addClass("extra-padding");
+	} else {
+		$("#navbar").removeClass("extra-padding");		
+	}
+});
+
 // TYPEWRITER EFFECT
 var TxtType = function (el, toRotate, period) {
 	this.toRotate = toRotate;
