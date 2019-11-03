@@ -113,14 +113,20 @@ html, body {
 }
 
 #main-img {
-  border-radius: 5px;
-  border: 5px solid #ffffff;
+  border: 5px solid #C70039;
   margin-top: 5.75rem;
   width: 66.66%;
 }
 
 .bg-grey {
 	background-color: #DFE3E7;
+}
+
+.display-5 {
+  font-size: 2.5rem;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
 }
 
 /* ============================== */
