@@ -218,6 +218,15 @@ a:hover {
   color: white;
 }
 
-/* ================================================== */
-/* STYLING OF THE HEADINGS THAT DESCRIBE EACH SECTION */
-/* ================================================== */
+/* ===================== */
+/* STYLING OF THE SKILLS */
+/* ===================== */
+.skills {
+  height: 15px;
+  width: auto;
+  list-style: none;
+}
+
+.bg-none {
+  background: none !important;
+}
