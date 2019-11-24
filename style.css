@@ -162,6 +162,11 @@ html, body {
   transition: all 0.3s;
 }
 
+.fa-copy {
+  color: white;
+  transition: all 0.3s;
+}
+
 .linkedinANDgithub {
   margin-top: 4rem;
 }
@@ -178,6 +183,10 @@ html, body {
   .fa-github-square {
     font-size: 3rem !important;
   }
+
+  .fa-copy {
+    font-size: 3rem !important;
+  }
 }
 
 
@@ -189,6 +198,10 @@ html, body {
 }
 
 .fa-linkedin:hover {
+  transform: scale(1.1);
+}
+
+.fa-copy:hover {
   transform: scale(1.1);
 }
 
