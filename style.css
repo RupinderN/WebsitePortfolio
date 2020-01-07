@@ -125,7 +125,7 @@ html, body {
   border: 5px solid;
   border-image: linear-gradient(45deg, hsl(0, 0%, 100%), #494949) 1;
   margin-top: 3.5rem;
-  width: 60%;
+  width: 42%;
 }
 
 .bg-grey {
