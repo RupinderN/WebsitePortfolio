@@ -25,7 +25,11 @@
 
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+	
+    <!-- Devicon -->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
 
   </head>
   <body>
@@ -44,7 +48,7 @@
             <ul class="p-0 m-0">
 				<li class="dropdown-link"><i class="far fa-address-card mr-2"></i> <a class="smooth-scroll" href="#profile">Profile</a></li>
 				<li class="dropdown-link"><i class="fas fa-graduation-cap mr-2"></i> <a class="smooth-scroll" href="#education">Education</a></li>
-				<li class="dropdown-link"><i class="fas fa-project-diagram mr-2"></i> <a class="smooth-scroll" href="#moviemagnet">Projects</a></li>
+				<li class="dropdown-link"><i class="fas fa-project-diagram mr-2"></i> <a class="smooth-scroll" href="#projects">Projects</a></li>
             	<li class="dropdown-link"><i class="fas fa-certificate mr-2"></i> <a class="smooth-scroll" href="#certifications">Certifications</a></li>
               	<li class="dropdown-link"><i class="fas fa-laptop-code mr-2"></i> <a class="smooth-scroll" href="#skills">Skills</a></li>
             </ul>
@@ -105,32 +109,60 @@
 
 <!-- Projects -->
 
+<div id="projects" class="jumbotron jumbotron-fluid m-0 bg-grey">
 
-<div id="moviemagnet" class="jumbotron jumbotron-fluid m-0 bg-grey">
-
-	<!-- Movie Magnet -->
+	<!-- Quick Alert -->
 
 	<div class="container2 text-dark">
 		<h1 class="display-4 mb-5 text-center text-md-left">Projects</h1>
 		<div class="media ml-5 ml-md-0">
-			<i class="fas fa-magnet fa-rotate-180 fa-2x mt-1 mr-3"></i>
+			<img class="mr-2" src="https://img.icons8.com/color/48/000000/heart-health.png">
 			<div class="media-body">
-				<h5 class="mt-2">Movie Magnet (Link <a href='https://github.com/RupinderN/MovieMagnet' target=”_blank”><u>Here</u></a>) <span class="float-right d-none d-md-inline">Node.js</span></h5>
-				<span class="float-left float-md-right">August-October 2019</span>
+				<h5 class="mt-2">Quick Alert (Link <a href='https://myquickalert.firebaseapp.com/' target=”_blank”><u>Here</u></a>) 
+					<span class="float-right d-none d-md-inline">React.js | Express.js | MongoDB</span>
+				</h5>
+				<span class="float-left float-md-right">January-February 2020</span>
 			</div>
 		</div>
 		<center>
-			<img class="screenshot" class='my-5 text-center' src="images/moviemagnet.PNG">
+			<img class="screenshot" class='my-5 text-center' src="images/quickalert.PNG">
 		</center>
 		<p class="mx-4 mx-md-0">
-			This is a web application using the MovieDB API and the 'imdb' node package to find movies that currently
-			playing in theatres, and display their IMDB ratings. If a user creates an account, they will obtain the
-			additional functionality of being able to filter movie ratings based on their personal taste, and can
-			also receive emails when a movie above their specific criteria is released in theatres.
-			It runs on Node.js backend, and the Express.js framework, with various asynchronous calls resolved with 
-			Promises and async/await functions.
+			A web application that ensures that emergency services near you know about all relevant information that might concern
+			you, all with one text message of your address. You can register as a user, or any emergency service location such as a hospital, police station, 
+			or fire department. The project's backend uses a RESTFUL API built in Node.js with the Express.js framework, and a MongoDB database stored all registration information. 
+			In order to deliver the text messages to our backend API, the Twilio API was used. The front-end was developed with
+			React.js, making use of the popular and versatile Material-UI React framework.
 		</p>
 	</div>
+
+	
+		<!-- Movie Magnet -->
+	
+		<div class="container2 text-dark mt-5">
+			<div class="media ml-5 ml-md-0">
+				<i class="fas fa-magnet fa-rotate-180 fa-2x mt-1 mr-3"></i>
+				<div class="media-body">
+					<h5 class="mt-2">Movie Magnet (Link <a href='https://github.com/RupinderN/MovieMagnet' target=”_blank”><u>Here</u></a>) 
+						<span class="float-right d-none d-md-inline">Express.js | MongoDB | Bootstrap</span>
+					</h5>
+					<span class="float-left float-md-right">August-October 2019</span>
+				</div>
+			</div>
+			<center>
+				<img class="screenshot" class='my-5 text-center' src="images/moviemagnet.PNG">
+			</center>
+			<p class="mx-4 mx-md-0">
+				This is a web application using the MovieDB API and the 'imdb' node package to find movies that currently
+				playing in theatres, and display their IMDB ratings. If a user creates an account, they will obtain the
+				additional functionality of being able to filter movie ratings based on their personal taste, and can
+				also receive emails when a movie above their specific criteria is released in theatres.
+				It runs on Node.js backend, and the Express.js framework, with various asynchronous calls resolved with
+				Promises and async/await functions.
+			</p>
+		</div>
+
+
 
 	<!-- Discover More --><br>
 	
@@ -138,8 +170,9 @@
 		<div class="media ml-5 ml-md-0">
 			<img class="mr-2" src="https://img.icons8.com/color/48/000000/music-record.png">
 			<div class="media-body">
-				<h5 class="mt-2">Discover More (Link <a href='https://discover-more.herokuapp.com/' target=”_blank”><u>Here</u></a>) <span class="float-right d-none d-md-inline">Node.js</span></h5>
-				<span class="float-left float-md-right">October 2019</span>
+				<h5 class="mt-2">Discover More (Link <a href='https://discover-more.herokuapp.com/' target=”_blank”><u>Here</u></a>)
+					<span class="float-right d-none d-md-inline">Node.js | Express.js | Bootstrap</span></h5>
+					<span class="float-left float-md-right">October 2019</span>
 			</div>
 		</div>
 		<center>
@@ -160,7 +193,7 @@
 		<div class="media ml-5 ml-md-0">
 			<div class="media-body">
 				<h5 class="mt-2">Convolutional Neural Network (Link <a href='https://github.com/RupinderN/Keras-TensorFlow-CNNs'
-						target=”_blank”><u>Here</u></a>) <span class="float-right d-none d-md-inline">Python</span></h5>
+						target=”_blank”><u>Here</u></a>) <span class="float-right d-none d-md-inline">TensorFlow | Keras | Python</span></h5>
 				<span class="float-left float-md-right">November 2019</span>
 			</div>
 		</div>
@@ -183,7 +216,7 @@
 			<div class="media-body">
 				<h5 class="mt-2">International Terrorism Map (Link <a
 						href='https://github.com/RupinderN/InternationalTerrorismHeatmap' target=”_blank”><u>Here</u></a>) <span
-						class="float-right d-none d-md-inline">Python</span></h5>
+						class="float-right d-none d-md-inline">Python | Pandas | Matplotlib</span></h5>
 				<span class="float-left float-md-right">August 2019</span>
 			</div>
 		</div>
@@ -267,11 +300,11 @@
 					<li class="list-group-item bg-none"><i class="fab fa-node-js text-success mr-1"></i> Node.js</li>
 					<li class="list-group-item bg-none"><img src="images/mongo.png" class="skills mr-1" alt="..."> MongoDB</li>
 	    			<li class="list-group-item bg-none"><img src="images/tensorflow.png" class="skills mr-1" alt="..."> TensorFlow</li>
-					<li class="list-group-item bg-none"><i class="fas fa-terminal mr-1"></i> Express</li>
+					<li class="list-group-item bg-none"><i class="devicon-express-original colored"></i> Express.js</li>
 					<li class="list-group-item bg-none"><i class="fas fa-code text-warning mr-1"></i> EJS</li>
-	    			<li class="list-group-item bg-none"><img src="images/octave.png" class="skills" alt="..."> Octave</li>
-	    			<li class="list-group-item bg-none"><i class="fab fa-html5 text-primary mr-1"></i> HTML</li>
-	    			<li class="list-group-item bg-none"><img src="images/numpy.png" class="skills" alt="..."> NumPy</li>
+					<li class="list-group-item bg-none"><img src="images/octave.png" class="skills" alt="..."> Octave</li>
+					<li class="list-group-item bg-none"><img src="images/firebase.png" class="skills mr-1" alt="..."> Firebase</li>
+	    			<li class="list-group-item bg-none"><i class="fab fa-html5 text-primary mr-1"></i> HTML5</li>
 				</ul>
 
 	    	</div>
@@ -286,8 +319,9 @@
 	    			<li class="list-group-item bg-none"><img src="images/jquery.png" class="skills mr-1" alt="..."> jQuery</li>
 	    			<li class="list-group-item bg-none"><i class="fab fa-css3-alt text-success mr-1"></i> CSS</li>
 					<li class="list-group-item bg-none"><img src="images/pandas.png" class="skills mr-1" alt="..."> Pandas</li>					
-					<li class="list-group-item bg-none"><img src="images/heroku.svg" class="skills mr-1" alt="..."> Heroku</li>					
-					<li class="list-group-item bg-none"><img src="images/verilog.png" class="skills mr-1" alt="..."> Verilog</li>					
+					<li class="list-group-item bg-none"><img src="images/heroku.svg" class="skills mr-1" alt="..."> Heroku</li>
+	    			<li class="list-group-item bg-none"><img src="images/numpy.png" class="skills" alt="..."> NumPy</li>
+
 				</ul>
 	    	</div>
 	    </div>
