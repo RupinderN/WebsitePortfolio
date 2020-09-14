@@ -226,6 +226,10 @@ html, body {
   }
 }
 
+#experience {
+  margin-bottom: 120px;
+}
+
 #projects {
 	margin-bottom: 120px;
 }
